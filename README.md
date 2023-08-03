@@ -15,6 +15,7 @@
 <li>🔖 Selectable qualities.</li>
 <li>📂 Change the download path.</li>
 <li>🌄 Simple & modern GUI.</li>
+<li>⚙️ Auto Pastes Link from clipboard.</li>
 </ul>
 
 ## Screenshots

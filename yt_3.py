@@ -27,7 +27,7 @@ ctk.set_default_color_theme("green")
 app = ctk.CTk()
 app.geometry("780x580")
 app.title("Youtube Downloader")
-# app.iconbitmap("YT Dwnld/YDICO.ico")
+app.iconbitmap(sys.executable)
 
 
 def clear():
@@ -113,6 +113,9 @@ def start_download():
 def cancel_download():
     sys.exit()
 
+def show_download():
+        # filename = "yt_2.py"
+        os.startfile(DOWNLOAD_FOLDER, "explore")
 
 # frame
 frame_1 = ctk.CTkFrame(master=app)
@@ -165,12 +168,17 @@ saveEntry.pack(pady=10, padx=10)
 download_btn = ctk.CTkButton(master=frame_1, text="Download", command=startdownload)
 download_btn.pack(pady=10, padx=10)
 
-cancel_btn = ctk.CTkButton(master=frame_1, text="Quit", command=cancel_download)
-cancel_btn.pack(pady=10, padx=10)
+# Reveal folder where file is downloaded
+show_btn = ctk.CTkButton(master=frame_1, text="Show Download", command=show_download)
+show_btn.pack(pady=10, padx=10)
 
 # clear button
 clear_btn = ctk.CTkButton(master=frame_1, text="Clear", command=clear)
 clear_btn.pack(pady=10, padx=10)
+
+# Quit BUtton
+cancel_btn = ctk.CTkButton(master=frame_1, text="Quit", command=cancel_download)
+cancel_btn.pack(pady=10, padx=10)
 
 
 em = emoji.emojize("Created with :growing_heart:  @Dev")
@@ -184,3 +192,4 @@ author.bind(
 )
 
 app.mainloop()
+

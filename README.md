@@ -16,13 +16,14 @@
 <li>📂 Change the download path.</li>
 <li>🌄 Simple & modern GUI.</li>
 <li>⚙️ Auto Pastes Link from clipboard.</li>
+<li>📂 Show Download location Button.</li>
 </ul>
 
 ## Screenshots
 
 <dl>
 <figure>
-<img src = "images/home.png"></img>
+<img src = "images/home_v1.0.1.png"></img>
 <figcaption>| Video Downloader Page</figcaption>
 </figure>
 </dl>

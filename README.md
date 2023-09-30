@@ -10,7 +10,8 @@
 
 ## Features
 <ul>
-<li>🔗 Download videos by URL.</li>
+<li>🔗 Download Videos by URL.</li>
+<li>🔗 Download **Entire Playlist**.</li>
 <li>🔉 Download audio only</li>
 <li>🔖 Selectable qualities.</li>
 <li>📂 Change the download path.</li>

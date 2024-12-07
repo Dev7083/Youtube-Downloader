@@ -1,4 +1,4 @@
-pytube==15.0.0
-customtkinter==5.2.0
-webbrowser
-threading
+customtkinter==5.2.2
+emoji==2.14.0
+pytubefix==8.7.0
+web-browser==0.0.1
